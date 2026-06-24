@@ -563,12 +563,6 @@ export default function App() {
       <Resume />
       <Contact />
       <Footer />
-
-      <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noopener noreferrer"
-        style={{ position: 'fixed', bottom: '1.75rem', right: '1.75rem', zIndex: 60, width: 50, height: 50, borderRadius: '50%', background: '#25D366', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.4rem', boxShadow: '0 8px 32px rgba(37,211,102,0.4)', transition: 'transform 0.25s' }}
-        onMouseEnter={e => (e.currentTarget.style.transform = 'scale(1.12)')}
-        onMouseLeave={e => (e.currentTarget.style.transform = 'scale(1)')}
-      >💬</a>
     </div>
   );
 }
